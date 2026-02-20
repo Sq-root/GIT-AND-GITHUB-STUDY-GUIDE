@@ -30,7 +30,7 @@ Suppose I made an app having **Version 1** containing files:
 - `f2`
 - `data.csv`
 
-![Version example](../img/img8.png)
+![Version example](./img/img8.png)
 
 Which I upgraded to **App Version 2** and made changes in `f2` and called it `f3`.
 
@@ -42,7 +42,7 @@ But still, is Git really required? **No!**
 
 You could use a manual "Zip" copy & paste method:
 
-![Zip method](../img/img1.png)
+![Zip method](./img/img1.png)
 
 If I have a project, I can copy and paste the entire project every time I upgrade it. This method is not so good because:
 
@@ -73,7 +73,7 @@ Here data is stored in a server. Developers push and pull from this server (e.g.
 - **Advantages:** If a computer gets damaged, he/she can recover files easily. Many developers can work at the same time connecting to the server.
 - **Disadvantages:** The copy stored in the centralized server is considered to be final. If the server is damaged, all data is lost. Some files can be recovered from a PC but cannot roll back.
 
-![Centralized VCS](../img/img2.png)
+![Centralized VCS](./img/img2.png)
 ### 2.3 Distributed VCS (The Smart System)
 
 Here files are stored in the server as well as in the computer.
@@ -81,7 +81,7 @@ Here files are stored in the server as well as in the computer.
 - **Advantages:** All computers receive the full project with full history. If the server gets damaged, the whole project along with previous versions are safe in the computer. Can roll back (complete backup).
 - **Disadvantages:** None.
 
-![Distributed VCS](../img/img3.png)
+![Distributed VCS](./img/img3.png)
 
 > **💡 Condition: The Logic of a Smart System**
 > 
@@ -131,7 +131,7 @@ GitHub is a hosting website, which hosts various Git repositories.
 
 _Install Git in your laptop from its official website only. If you type `git scm` you will get the official website._
 
-![Three-Stage Architecture](../img/img4.png)
+![Three-Stage Architecture](./img/img4.png)
 
 1. **Working Directory:** The working directory/tree consists of files that you are currently working on. In this directory you view & modify files.
     
@@ -161,7 +161,7 @@ A file in a Git repository exists in one of four states:
 3. **Modified:** Tracked files that you edited. _(Red colour)_
 4. **Staged:** Files ready to commit. _(Green colour)_
 
-![File Status Lifecycle](../img/img5.png)
+![File Status Lifecycle](./img/img5.png)
 
 #### Example Lifecycle Scenario:
 
@@ -365,7 +365,7 @@ Therefore, we create a branch (e.g., **Design Branch**) and add features to it w
 
 - _Example of features added in Design Branch:_ Added HTML files, Added CSS, Added Dashboard, Typed JS, Nav bar added, Added ICON, Recommendations, CHANGED BACKGROUND COLOUR. Then merged design into master.
 
-![Branching Example](../img/img6.png)
+![Branching Example](./img/img6.png)
 
 ### 7.2 Core Branching Commands
 
@@ -383,7 +383,7 @@ Therefore, we create a branch (e.g., **Design Branch**) and add features to it w
 
 Merge conflicts happen when there is an **Issue 1**, resulting in **Result A** on the Master Branch and **Result B** on the Feature Branch. Git asks us as to which result you would love to merge Result A or B into the main branch.
 
-![Merge Conflict Timeline](../img/img7.png)
+![Merge Conflict Timeline](./img/img7.png)
 _Commit timeline:_
 
 - `$C0` = initial commit
